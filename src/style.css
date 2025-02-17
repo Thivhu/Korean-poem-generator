@@ -1,0 +1,75 @@
+body {background-color: lightpink;}
+.container {
+    margin: 120px auto;
+   max-width: 600px;
+   background-color: rgb(250, 164, 178);
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+
+h1 {text-align: center;
+    color: white;
+font-size: 36px;
+line-height: 1.5;}
+header {
+    background-color: rgb(250, 164, 178);
+    padding: 10px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 60px rgb(231, 126, 144);
+}
+form{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 60px rgb(231, 126, 144);
+    display: flex;
+    
+}
+
+   
+    .instructions{ padding: 10px;
+        border: 1px solid rgba(39, 30, 66, 0.5);
+        width: 80%;
+        font-size: 16px;
+        list-style: none;
+        border-radius: 15px;
+
+    }
+    
+.button { font-size: 16px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    padding: 14px 24px;
+    margin-left: 10px;
+    width: 150px;
+    background-color: rgb(250, 164, 178);
+    }
+    .poem{
+        padding: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 10px;
+        margin-top: 30px;
+     }
+
+     footer {
+        background-color: rgb(250, 164, 178);
+        padding: 10px 0;
+       text-align: center;
+    font-size: 13px;}
+
+    .aesthetic{ margin: 0 auto;
+        display: block;
+        width: 40%;
+        text-align: center;
+        background-color: rgb(250, 164, 178);
+        color: white;
+        font-size: 16px;
+        border-radius: 10px;
+        box-shadow: 0 20px 60px rgb(231, 126, 144);
+    }
