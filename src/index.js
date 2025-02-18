@@ -4,7 +4,7 @@ function generatePoem(event) {
     new Typewriter("#poem", {
         strings: ["앞산에"],
         autoStart: true,
-        delay: 1,
+        delay: 75,
         cursor: ""
     });
 }
