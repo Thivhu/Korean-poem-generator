@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@2.18.0/dist/core.js"></script>
     <title>AI Poem Generator</title>
-    <link rel="stylesheet" href="src\style.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
     <div class="container">
@@ -12,7 +13,7 @@
     <h1>AI Korean Poem Generator</h1>
 </header>
 <main>
-    <form>
+    <form id="poem-generator-form">
     <input type="text" id="input" placeholder="Enter the topic of the Korean poem"
     autofocus
     required
@@ -20,17 +21,13 @@
     class="instructions"/>
     <input type="submit" class="button"/>
     </form>
-    <div class="poem">
-        말간 눈을 한
-        <br  />
-       애인이여
-    </div>
+    <div class="poem" id="poem"> </div>
     <img src="https://files.idyllic.app/files/static/2107406?width=256&optimizer=image" alt="backgrpung" srcset="" class="aesthetic"/>
     </main>
     <footer>This AI project was coded by <a href="https://github.com/Thivhu" target="blank">Thivhulawi Nethengwe </a> and is open  <a  href="https://github.com/Thivhu/Korean-poem-generator" target="_blank "> open sourced on Github</a>
     Is <a href="https://korean-poem.netlify.app/" target="blank">hosted on Netlify.</a>
  </footer>
-    <script src="src\index.js"></script> 
+    <script src="src/index.js"></script> 
     </div>
 </body>
 </html>
